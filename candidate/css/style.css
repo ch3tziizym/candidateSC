@@ -1,0 +1,344 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+/* Custom */
+
+body{
+      background-color: #f0f0f0;
+}
+.icon-block{
+    background-color: #333d51;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    height: 500px;
+}
+
+.boxshadow{
+  box-shadow: 3px 3px 7px 1px #a7a7a7;
+}
+
+.board {
+    float: left;
+ 
+}
+
+.whitefont{
+  color: #fff;
+  margin-bottom: 20px;
+}
+footer.page-footer {
+    margin-bottom: 0px;
+    margin-top: 190px;
+}
+
+.profile img{
+      width: 100%;
+    margin: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.icon-block-profile {
+  padding: 0 15px;
+}
+.top-profile{
+  margin-bottom: 50px;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+.row-size{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 200px;
+}
+.teal {
+    margin-top: 30px;
+}
+.orange{
+  background-color: #fead02!important;
+}
+
+.menu-grp {
+    width: 260px;
+    height: 400px;
+    position: absolute;
+    padding-top: 110px;
+    padding-bottom: 120px;
+    padding-left: 160px;
+}
+.btn{
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 200px;
+}
+
+td{
+  text-align: center;
+  color: #fff;
+}
+
+.table{
+    text-align: left;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
+}
+
+.table td, .table th {
+    padding-bottom: 2%;
+    padding-top: 2%;
+  padding-left:10%;
+  padding-right: 10%;  
+}
+
+.table tr:nth-child(odd) {
+    background-color: #323C50;
+}
+
+.table tr:nth-child(even) {
+    background-color: #2C3446;
+}
+
+.table th {
+    background-color: #1F2739;
+}
+
+.table td:first-child { 
+  color: #FB667A; 
+}
+
+.table tr:hover {
+   background-color: #464A52;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+     -moz-box-shadow: 0 6px 6px -6px #0E1119;
+          box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.table td:hover {
+  background-color: #FFF842;
+  color: #403E10;
+  font-weight: bold;
+  
+  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+  
+  transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+  transition-timing-function: line;
+}
+
+@media (max-width: 800px) {
+.table td:nth-child(4),
+.table th:nth-child(4) { display: none; }
+}
+
+
+h1 {
+  font-size:3em; 
+  font-weight: 300;
+  line-height:1em;
+  text-align: center;
+  color: #4DC3FA;
+}
+
+h2 {
+  font-size:1em; 
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  line-height:1em;
+  padding-bottom: 2em;
+  color: #FB667A;
+}
+
+h2 a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FB667A;
+  text-decoration: none;
+}
+
+.blue { color: #185875; }
+.yellow { color: #FFF842; }
+
+.table th h1 {
+    font-weight: bold;
+    font-size: 1em;
+  text-align: left;
+  color: #185875;
+}
+
+.table td {
+    font-weight: normal;
+    font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+     -moz-box-shadow: 0 2px 2px -2px #0E1119;
+          box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+thead {
+    border-bottom: 2px solid #fead02;
+}
+
+
+
+.button-collapse{
+  color: white;
+}
+nav .brand-logo{
+  color: white;
+}
+
+.menu-left{
+  float: left;
+  margin-top: 150px;
+}
+
+.menu-right{
+  float: right;
+  margin-top: 150px;
+}
+
+img.profile-image {
+    width: 40%;
+        border-radius: 50%;
+    height: auto;
+    background-color: #fff;
+    margin-top: 50px;
+    box-shadow: 3px -5px 20px 0px #fead028c;
+}
+
+.border10{
+      border-radius: 10px;
+}
+
+
+
+  .menu-left{
+    display: none;
+  }
+  .profile-image{
+    display: none;
+  }
+}
+
+img.profile-image-small {
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+    margin-top: 50px;
+    box-shadow: 3px -5px 20px 0px #fead02;
+}
+.side-nav{
+  width: 250px;
+}
+
+.paddingsize{
+  padding: 5px;
+}
+
+.orangecolor{
+  color: #fead02;
+}
+
+#bars{
+  margin: 20px auto;
+  max-width: 960px;
+  overflow: hidden;}
+.bar{
+      margin-bottom: 2px;
+  float: left;
+  width: 50%;
+  text-align: center;
+      color: white;
+    background-color: #333d51;
+  }
+.bar h3{
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  text-transform: uppercase;}
+.bar-circle{
+  display: block;
+  margin: 10px auto;}
+
+.icon-block-bar {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px;
+    height: auto;
+}
+
+/* Responsive Custom */
+
+@media screen and (max-width: 991px){
+  .menu-right{
+    display: none;
+  } 
+
+  @media screen and (max-width: 768px){
+  .table{ 
+     width: 80%;
+  }
+}
